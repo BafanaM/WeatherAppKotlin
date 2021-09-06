@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView_day_of_week"
+        style="@style/TextAppearance.MyWeather.SubTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        tools:text="@tools:sample/lorem"
+        tools:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_view_weather_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:tint="@color/white"
+        android:scaleType="centerInside"
+        tools:src="@drawable/ic_mist" />
+
+    <TextView
+        android:id="@+id/textView_current_temperature"
+        style="@style/TextAppearance.MyWeather.SubTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end|center_horizontal"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        tools:text="@tools:sample/lorem"
+        tools:textColor="@color/black" />
+</LinearLayout>
