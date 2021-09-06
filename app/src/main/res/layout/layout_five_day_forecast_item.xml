@@ -2,8 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="50dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/standard_margin"
+    android:layout_marginEnd="@dimen/standard_margin"
     android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/half_margin"
+        android:elevation="@dimen/standard_margin">
 
     <TextView
         android:id="@+id/textView_day_of_week"
@@ -12,6 +20,7 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:textColor="@color/white"
+        android:paddingStart="@dimen/standard_margin"
         android:layout_weight="1"
         tools:text="@tools:sample/lorem"
         tools:textColor="@color/black" />
@@ -36,5 +45,8 @@
         android:textColor="@color/white"
         android:layout_weight="1"
         tools:text="@tools:sample/lorem"
-        tools:textColor="@color/black" />
+        tools:textColor="@color/black"
+        android:paddingEnd="@dimen/standard_margin"
+        android:paddingTop="@dimen/standard_margin"/>
+    </androidx.cardview.widget.CardView>
 </LinearLayout>

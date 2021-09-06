@@ -1,5 +1,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">WeatherAppKotlin</string>
+    <string name="app_name">Weather App</string>
     <string name="try_again">Try Again</string>
     <string name="network_error">We need you to be connected to the Internet for the app to function properly.</string>
     <string name="location_permission">We need access to your location for us to give you accurate weather.</string>
